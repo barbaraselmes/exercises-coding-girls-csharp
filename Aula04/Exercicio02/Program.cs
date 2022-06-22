@@ -24,12 +24,11 @@
                     qtdImpares++;
                 }
             }
-
-
             int[] numerosPares = new int[qtdPares];
             int[] numerosImpares = new int[qtdImpares];
 
-            foreach (int n in vetor) {
+            foreach (int n in vetor)
+            {
                 if (n % 2 == 0)
                 {
                     numerosPares[j] = n;

@@ -11,7 +11,7 @@
             int jogo;
 
             Console.WriteLine("VOCÊ FOI CONVOCADO PARA UMA PARTIDA DE JOKENPÔ! BORA?");
-                        
+
             do
             {
                 Console.WriteLine("\nDigite o número de rodadas de Jokenpô que você quer jogar:");
@@ -93,13 +93,13 @@
                 {
                     Console.WriteLine($"------- PORTANTO, DEU EMPATE! -------");
                 }
-                
+
 
                 Console.WriteLine($"\nVamos jogar novamente?\nDigite \"1\" para jogar novamente ou \"2\" para sair.");
                 jogo = Convert.ToInt16(Console.ReadLine());
                 //break? ver //usar do(while)
             } while (jogo == 1);
-            
+
         }
     }
 }

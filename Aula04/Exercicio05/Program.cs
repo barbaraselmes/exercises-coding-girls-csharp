@@ -59,25 +59,26 @@
                 }
 
                 Console.WriteLine($"\n{jogador}, digite o número da posição da sua jogada: \n*Atenção: A posição deverá contemplar um número entre 1 e 9!");
-                int jogada1 = Convert.ToInt16(Console.ReadLine());
+                int jogada1 = int.Parse(Console.ReadLine());
 
-                jogada = (jogada1 == 1 && tabuleiro[0,0] != jogador1 && tabuleiro[0, 0] != jogador2) ? tabuleiro[0, 0] = marcacao :
-                         (jogada1 == 2 && tabuleiro[0,1] != jogador1 && tabuleiro[0, 1] != jogador2) ? tabuleiro[0, 1] = marcacao :
-                         (jogada1 == 3 && tabuleiro[0,2] != jogador1 && tabuleiro[0, 2] != jogador2) ? tabuleiro[0, 2] = marcacao :
-                         (jogada1 == 4 && tabuleiro[1,0] != jogador1 && tabuleiro[1, 0] != jogador2) ? tabuleiro[1, 0] = marcacao :
-                         (jogada1 == 5 && tabuleiro[1,1] != jogador1 && tabuleiro[1, 1] != jogador2) ? tabuleiro[1, 1] = marcacao :
-                         (jogada1 == 6 && tabuleiro[1,2] != jogador1 && tabuleiro[1, 2] != jogador2) ? tabuleiro[1, 2] = marcacao :
-                         (jogada1 == 7 && tabuleiro[2,0] != jogador1 && tabuleiro[2, 0] != jogador2) ? tabuleiro[2, 0] = marcacao :
-                         (jogada1 == 8 && tabuleiro[2,1] != jogador1 && tabuleiro[2, 1] != jogador2) ? tabuleiro[2, 1] = marcacao :
-                         (jogada1 == 9 && tabuleiro[2,2] != jogador1 && tabuleiro[2, 2] != jogador2) ? tabuleiro[2, 2] = marcacao : error = "error";
+                jogada = (jogada1 == 1 && tabuleiro[0, 0] != jogador1 && tabuleiro[0, 0] != jogador2) ? tabuleiro[0, 0] = marcacao :
+                         (jogada1 == 2 && tabuleiro[0, 1] != jogador1 && tabuleiro[0, 1] != jogador2) ? tabuleiro[0, 1] = marcacao :
+                         (jogada1 == 3 && tabuleiro[0, 2] != jogador1 && tabuleiro[0, 2] != jogador2) ? tabuleiro[0, 2] = marcacao :
+                         (jogada1 == 4 && tabuleiro[1, 0] != jogador1 && tabuleiro[1, 0] != jogador2) ? tabuleiro[1, 0] = marcacao :
+                         (jogada1 == 5 && tabuleiro[1, 1] != jogador1 && tabuleiro[1, 1] != jogador2) ? tabuleiro[1, 1] = marcacao :
+                         (jogada1 == 6 && tabuleiro[1, 2] != jogador1 && tabuleiro[1, 2] != jogador2) ? tabuleiro[1, 2] = marcacao :
+                         (jogada1 == 7 && tabuleiro[2, 0] != jogador1 && tabuleiro[2, 0] != jogador2) ? tabuleiro[2, 0] = marcacao :
+                         (jogada1 == 8 && tabuleiro[2, 1] != jogador1 && tabuleiro[2, 1] != jogador2) ? tabuleiro[2, 1] = marcacao :
+                         (jogada1 == 9 && tabuleiro[2, 2] != jogador1 && tabuleiro[2, 2] != jogador2) ? tabuleiro[2, 2] = marcacao : error = "error";
 
                 Console.Clear();
-                if (error == "error") {
+                if (error == "error")
+                {
                     Console.WriteLine("Você jogou em uma posição já preenchida ou fora do intervalo [1,9]. Jogue novamente!\n");
                     deQuemEAVez -= 1;
                     error = "tudoOK";
                 }
-                
+
                 Console.WriteLine("------------------ PARTIDA EM ANDAMENTO -------------------\n");
 
                 for (int linha = 0; linha < tabuleiro.GetLength(0); linha++)
@@ -112,4 +113,3 @@
         }
     }
 }
-

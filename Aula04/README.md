@@ -2,7 +2,7 @@
 
 > Tema: Vetores e Matrizes
 
-1.O código do exercício 01 solicita e armeza a entrada de 10 números. Posteriormente, exibe dois vetores, um com os 10 valores originais e outro com os valores do primeiro multiplicados por 5.
+1. O código do exercício 01 solicita e armeza a entrada de 10 números. Posteriormente, exibe dois vetores, um com os 10 valores originais e outro com os valores do primeiro multiplicados por 5.
 
 2. O código do exercício 02 solicita e armeza a entrada de 10 números. Posteriormente, exibe dois vetores, um com os valores pares e outro com os valores ímpares. 
 

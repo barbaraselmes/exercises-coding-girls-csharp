@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04-\\Exercicio01\\Exercicio01.csproj": {}
+    "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio01\\Exercicio01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04-\\Exercicio01\\Exercicio01.csproj": {
+    "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio01\\Exercicio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04-\\Exercicio01\\Exercicio01.csproj",
+        "projectUniqueName": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio01\\Exercicio01.csproj",
         "projectName": "Exercicio01",
-        "projectPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04-\\Exercicio01\\Exercicio01.csproj",
+        "projectPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio01\\Exercicio01.csproj",
         "packagesPath": "C:\\Users\\barba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04-\\Exercicio01\\obj\\",
+        "outputPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
