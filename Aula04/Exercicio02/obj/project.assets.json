@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio02\\Exercicio02.csproj",
+      "projectUniqueName": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04\\Exercicio02\\Exercicio02.csproj",
       "projectName": "Exercicio02",
-      "projectPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio02\\Exercicio02.csproj",
+      "projectPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04\\Exercicio02\\Exercicio02.csproj",
       "packagesPath": "C:\\Users\\barba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls 2\\Aula04\\Exercicio02\\obj\\",
+      "outputPath": "C:\\Users\\barba\\OneDrive\\Área de Trabalho\\Coding Girls\\Aula04\\Exercicio02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

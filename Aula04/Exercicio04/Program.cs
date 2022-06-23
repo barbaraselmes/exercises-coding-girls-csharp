@@ -83,7 +83,6 @@
                 Console.Write($"\n--- Você ganhou {pontuacaoUsuario} rodada(s) e ");
                 Console.WriteLine($"a máquina ganhou {pontuacaoComputador} rodada(s)! ---");
 
-                //empate (?) arrukar aqui
                 if (pontuacaoUsuario != pontuacaoComputador)
                 {
                     campeao = (pontuacaoUsuario > pontuacaoComputador) ? "VOCÊ! PARABÉNS!" : "A MÁQUINA!";
@@ -97,7 +96,7 @@
 
                 Console.WriteLine($"\nVamos jogar novamente?\nDigite \"1\" para jogar novamente ou \"2\" para sair.");
                 jogo = Convert.ToInt16(Console.ReadLine());
-                //break? ver //usar do(while)
+
             } while (jogo == 1);
 
         }
